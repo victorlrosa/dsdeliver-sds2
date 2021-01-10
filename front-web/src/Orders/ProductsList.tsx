@@ -1,6 +1,5 @@
 import { checkIsSelected } from "./helpers";
 import ProductCard from "./ProductCard";
-import StepsHeader from "./StepsHeader";
 import { Product } from "./types";
 
 type Props = {
