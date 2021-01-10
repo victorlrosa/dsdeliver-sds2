@@ -1,9 +1,14 @@
 import './App.css';
-
+import { ToastContainer } from 'react-toastify';
 import Routes from './Routes';
 
 function App() {
-  return <Routes/>
+  return (
+    <>
+      <Routes />
+      <ToastContainer/>
+    </>
+  )
 
 }
 
