@@ -1,5 +1,4 @@
 import axios from "axios";
-import ProductCard from "./Orders/ProductCard";
 import { OrderPayload } from "./Orders/types";
 
 const API_URL = process.env.REACT_APP_API_URL;
